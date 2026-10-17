@@ -1,11 +1,18 @@
 {
   "name": "ai-tribe",
-  "owner": { "name": "AI Tribe" },
-  "metadata": { "description": "AI Tribe plugins for Claude: skills, agents and connectors for members." },
+  "owner": {
+    "name": "AI Tribe"
+  },
+  "metadata": {
+    "description": "AI Tribe plugins for Claude: skills, agents and connectors for members."
+  },
   "plugins": [
     {
       "name": "creative-engine",
-      "source": { "source": "github", "repo": "ai-tribe-marketplace/creative-engine" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ai-tribe-marketplace/creative-engine.git"
+      },
       "description": "Image and video ads on your own kie.ai key: brand kit from your website, guided brief, competitor and hook research, proven ad templates, talking-head and b-roll video, with a cost quote before every batch. macOS."
     }
   ]
